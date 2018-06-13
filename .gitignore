@@ -1,16 +1,34 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+.DS_Store
+*.m4
+libtool
+ltmain.sh
+depcomp
+autom4te.cache/*
+config.guess
+config.log
+config.status
+config.sub
+configure
+install-sh
+Makefile
+Makefile.in
+missing
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
+backend/backend
+backend/.libs
+backend/.deps
+backend/*.o
+backend/*.lo
+backend/*.la
 
-# Book build output
-_book
+xpi/components
+xpi/backend
+xpi/platform
 
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+build/
+
+*.suo
+*.ncb
+*.user
+*.swp
+*~
